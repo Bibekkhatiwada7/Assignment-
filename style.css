@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for header */
+header h1 {
+    padding-left: 50px;
+   color: orange;
+   font-size: 20px;
+   border-left: 2px solid black;
+   border-right: 2px solid black;
+    display: inline-block;
+}
+
+/* Style for the main article's image */
+main article .box-1 img {
+    height: 75vh;
+    width: 90%;
+    margin: 7px 7px 7px 40px;
+}
+
+/* Style for the main article's heading */
+main article .box-1 h2 {
+    font-size: 50px;
+    padding-left: 30px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+/* Style for the main article */
+main article .box-1 p {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+
+/* Style the box containing the article's content */
+.box-2 {
+    display: flex;
+    margin: 19px;
+    padding: 5px;
+}
+
+/* Style the main article's container */
+.main-article {
+    display: flex;
+}
+
+/* Style the left box containing the main article */
+.big-box-1 {
+    width: 60%;
+}
+
+.big-box-2 {
+    margin-top: 5px;
+    width: 35%;
+    padding: 5px;
+    max-width: 800px;
+    line-height: 1.5;
+}
+
+/* Style the strong text */
+strong {
+    font-weight: bold;
+    color: orange;
+
+}
+
+/* Styling the main footer */
+p small em {
+    font-weight: bold;
+}
